@@ -43,10 +43,24 @@
     TIME_ZONE = Asia/Bangkok
     ```
 
- 5. run the server
+ 5. migrate
 
     ```
     py manage.py runserver
     ```
 
- 6. Open the site of this 
+ 6. run the server
+
+    ```
+    py manage.py runserver
+    ```
+
+ 7. Open the site
+    
+    ```
+    http://127.0.0.1:8000/
+
+    you will see that there doesn't have anything so,
+        if you want to change the polls you have to go to http://127.0.0.1:8000/admin/
+        or  if you wnat to vote the polls you have to go to http://127.0.0.1:8000/polls/
+    ```
