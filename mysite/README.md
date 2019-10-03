@@ -34,7 +34,7 @@
  4. Add data to .env file
 
     ```
-    SECRET_KEY = 
+    SECRET_KEY = anything
 
     DEBUG = True
 
